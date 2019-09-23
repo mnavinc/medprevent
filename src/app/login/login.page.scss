@@ -1,0 +1,15 @@
+ion-content {
+    background: url('/assets/login-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .absolute-img{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    bottom: 1em;
+    left: 1em;
+    z-index: 99;
+  }
