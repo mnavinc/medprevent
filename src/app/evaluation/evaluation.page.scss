@@ -1,0 +1,90 @@
+.datatable-main{
+    width:90%;
+    margin:auto;
+    ul{
+        margin-bottom:0.5em;
+        &.header{
+            list-style:none;
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: flex-start;
+            li{
+                width: 33.3333%;
+                padding: 1.2em 1em;
+                text-align: left;
+                white-space: nowrap;
+                font-size: 10px;
+                font-weight: bolder;
+                background-color: #eff8fb;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                &:first-child{
+                    border-radius:4px 0 0 4px
+                }
+                &:last-child{
+                    border-radius: 0 4px 4px 0;
+                }
+                &:nth-child(odd){
+                    background-color:#325575;
+                    color:#eff8fb
+                }
+            }
+        }
+    }
+    .body{
+        ul{
+            list-style:none;
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: flex-start;
+            li{
+                width: 33.3333%;
+                padding: 2em 1em;
+                text-align: left;
+                white-space: nowrap;
+                font-size: 10px;
+                font-weight: bolder;
+                background-color: #eff8fb;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                &:first-child{
+                    border-radius:4px 0 0 4px
+                }
+                &:last-child{
+                    border-radius: 0 4px 4px 0;
+                    color:#325575
+                }
+                &:nth-child(odd){
+                    background-color:#fff;
+                }
+                span{
+                    &.check{
+                        position: relative;
+                        width: 32px;
+                        height: 32px;
+                        vertical-align: middle;
+                        border-radius: 50%;
+                        border: 1px solid #325575;
+                        display: inline-block;
+                        margin-right: 5%;
+                        .dot{
+                            display:none;
+                        }
+                    }
+                    &.arrow{
+                        position: relative;
+                        font-size:32px;
+                        vertical-align: middle;
+                        display: inline-block;
+                        margin-right: 5%;
+                        .col{
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

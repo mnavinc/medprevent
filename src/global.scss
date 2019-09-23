@@ -211,3 +211,31 @@ ion-tab-bar{
         top: 8px;
     }
 }
+ion-header {
+    width:85%;
+    margin-left:15%;
+    ion-toolbar{
+        width: 20%;
+        border-radius: 0 0 10% 10%;
+        img{
+            padding:0.8em
+        }
+    }
+}
+h1.title{
+    width: 80%;
+    margin: auto 15%;
+    padding: 0.5em 0;
+    font-size: 3em;
+    font-weight: bolder;
+    position: relative;
+    span{
+        &.header-img{
+            position: absolute;
+            width: 30%;
+            right: 7%;
+            bottom: 0.2em;
+        }
+    }
+}
+
