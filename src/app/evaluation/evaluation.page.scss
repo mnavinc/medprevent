@@ -135,7 +135,10 @@
         background-color: #f00;
         color: #fff;
         border-radius: 10px;
-        font-size: 1em;
+        font-size: 0.8em;
+        ion-icon{
+            vertical-align: middle
+        }
     }
     .ult{
         display:block;

@@ -232,9 +232,28 @@ h1.title{
     span{
         &.header-img{
             position: absolute;
-            width: 30%;
+            width: 40%;
             right: 7%;
             bottom: 0.2em;
+        }
+    }
+    &.withIcon{
+        span {
+            vertical-align: middle;
+            text-align:right;
+            top: 22%;
+            &.header-img{
+                font-size:0.45em;
+                font-size:40%;
+                right:0;
+                img{
+                    width: 64px;
+                    border: 1px solid #f00;
+                    border-radius: 50%;
+                    vertical-align:middle;
+                    margin-left: 0.5em;
+                }
+            }
         }
     }
 }
